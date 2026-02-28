@@ -1,24 +1,51 @@
-🍽️ Food_Ordering_System
-A simple web-based food ordering application built using Java (JSP/Servlets), JDBC, and MySQL, inspired by platforms like Swiggy or Zomato.
+# 🍽️ Food_Ordering_System
 
-🔧 Tech Stack
-Java (JDK 8+)
-JSP and JEE & Servlets
-JDBC
-MySQL
-HTML, CSS
-Apache Tomcat (v9+)
-🌟 Features
-👤 User Registration & Login
-🍔 View Restaurants and Menus
-🛒 Add to Cart and Checkout
-💳 Place Orders with Payment Option (Cash/Card)
-🧾 View Order Confirmation
-🖼️ Upload and Update Profile Picture
-📌 Project Structure
-FoodOrderingSystem/ ├── src/ │ ├── model/ │ ├── dao/ │ ├── servlet/ ├── web/ │ ├── jsp/ │ ├── css/ │ ├── images/ ├── lib/ ├── sql/ (DB dump) ├── README.md ├── .gitignore ├── web.xml
+A simple web-based food ordering application built using **Java (JSP/Servlets)**, **JDBC**, and **MySQL**, inspired by platforms like Swiggy or Zomato.
 
-🖼️ System Architecture
+---
+
+## 🔧 Tech Stack
+
+- Java (JDK 8+)
+- JSP  and JEE & Servlets
+- JDBC
+- MySQL
+- HTML, CSS
+- Apache Tomcat (v9+)
+
+---
+
+## 🌟 Features
+
+- 👤 User Registration & Login
+- 🍔 View Restaurants and Menus
+- 🛒 Add to Cart and Checkout
+- 💳 Place Orders with Payment Option (Cash/Card)
+- 🧾 View Order Confirmation
+- 🖼️ Upload and Update Profile Picture
+
+---
+
+## 📌 Project Structure
+
+FoodOrderingSystem/
+├── src/
+│ ├── model/
+│ ├── dao/
+│ ├── servlet/
+├── web/
+│ ├── jsp/
+│ ├── css/
+│ ├── images/
+├── lib/
+├── sql/ (DB dump)
+├── README.md
+├── .gitignore
+├── web.xml
+
+## 🖼️ System Architecture
+
+```plaintext
 +------------+      +---------------------+     +--------------+
 |  User      | ---> |  JSP / HTML Pages   | <-->|  Servlet      |
 +------------+      +---------------------+     +--------------+
@@ -108,8 +135,3 @@ http://localhost:8080/FoodOrderingSystem/
 
 ### 👤 User Profile Page  
 ![Profile Page](https://github.com/Mahaboob-Basha-Shaik/Food-Ordering-System/blob/main/Screenshot%202025-06-22%20103403.png?raw=true)
-
-
----
-> _“Code is like humor. When you have to explain it, it’s bad.” –Shaik Mahaboob Basha_
-
