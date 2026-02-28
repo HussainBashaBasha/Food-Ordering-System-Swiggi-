@@ -108,10 +108,6 @@ Start the Tomcat server.
 Access the App
 http://localhost:8080/FoodOrderingSystem/
 
-
-
-
-
 ## 📷 Screenshots
 
 ### 🏠 Home Page
